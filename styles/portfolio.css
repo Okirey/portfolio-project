@@ -1,8 +1,9 @@
 :root {
     --primary-color: #0b1827;
-    --secondary-color: #29333a;
+    --secondary-color: #11171a;
     --font-color:#EEEEEE;
     --buttons-color:#F6C90E;
+  
 }
 
 h1 {
@@ -39,5 +40,35 @@ hero h2{
     line-height: 27px;
     font-weight: 600;
     padding: 10px 20px;
-    font-family:"Poppins", serif;;
+    font-family:"Poppins", serif;
+}
+.projects-below{
+    color:var(--secondary-color);
+    font-family:"Poppins", serif;
+     font-size: 16px;  
+}
+.project-img {
+    max-width: 100%;
+    height: auto;
+}
+.projects-heading{
+    font-family:"Playfair Display",
+        serif; ;
+    font-size: 44px;
+    color: var(--primary-color)
+}
+.projects-description {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+}
+.btn-branding-outline {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid var(--primary-color);
+}
+ a.btn-branding-outline:hover{
+    background-color: var(--buttons-color);
+    border: 1px solid var(--primary-color);
 }
