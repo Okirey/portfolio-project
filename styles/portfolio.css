@@ -68,6 +68,4 @@ hero h2{
     font-weight: 600;
     border: 1px solid var(--primary-color);
 }
- .text-block{
-    background:var(--font-color);
- }
+ 
