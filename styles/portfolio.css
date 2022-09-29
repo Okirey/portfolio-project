@@ -33,7 +33,7 @@ hero h2{
     font-weight: normal;
     line-height: 2;
 }
-.btn-branding {
+.btn-warning {
     background-color:var(--buttons-color);
     color:var(--primary-color);
     font-size: 18px;
@@ -42,6 +42,7 @@ hero h2{
     padding: 10px 20px;
     font-family:"Poppins", serif;
 }
+
 .projects-below{
     color:var(--secondary-color);
     font-family:"Poppins", serif;
@@ -60,6 +61,7 @@ hero h2{
 .projects-description {
     font-family: "Poppins", serif;
     font-size: 16px;
+    line-height: 2;
 }
 .btn-branding-outline {
     color: var(--primary-color);
@@ -68,4 +70,22 @@ hero h2{
     font-weight: 600;
     border: 1px solid var(--primary-color);
 }
- 
+.text-block{
+    padding: 50px 60px 0;
+}
+@media(max-width: 960px) {
+ .text-block{
+    padding:0;
+    text-align: center;
+    line-height: 1;
+ }
+ h1 {
+    font-size: 56px;
+ }
+.projects-heading {
+    font-size: 28px;    
+}
+.hero {
+    padding: 80px 20 px;
+}
+}
