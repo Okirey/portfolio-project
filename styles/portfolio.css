@@ -22,6 +22,12 @@ font-size: 18px
     color:var(--font-color) ;
     padding: 160px 20px;
 }
+.about-section{
+    background: var(--primary-color);
+        text-align: center;
+        color: var(--font-color);
+        padding: 100px 20px;
+}
 .hero p{
     font-family: "Playfair Display", serif;
     font-size: 36px;
@@ -73,6 +79,17 @@ hero h2{
 .text-block{
     padding: 50px 60px 0;
 }
+.about-heading{
+    font-size: 56px;
+}
+.about-section p{
+    font-family: "Poppins",
+        serif;
+        font-size: 18px;      
+        margin-bottom: 30px;
+}
+
+
 @media(max-width: 960px) {
  .text-block{
     padding:0;
@@ -86,6 +103,14 @@ hero h2{
     font-size: 28px;    
 }
 .hero {
-    padding: 80px 20 px;
+    padding: 80px 20px;
+}
+.girl-img {
+margin-top: 20px;
+max-width: 200px;
+
+}
+.about-section p{
+    margin-bottom: 10px;
 }
 }
