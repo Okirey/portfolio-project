@@ -92,6 +92,13 @@ hero h2{
     font-family: "Poppins", serif;
 }
 
+.contact-section a{
+font-family: "Poppins", serif;
+font-size: 24px;
+  color: var(--secondary-color)
+ 
+}
+
 @media(max-width: 960px) {
  .text-block{
     padding:0;
