@@ -5,21 +5,25 @@
     --buttons-color:#F6C90E;
   
 }
-
-h1 {
-    font-size: 96px;
-font-family: "Playfair Display", serif;
-
+.container-fluid{
+    padding: 0;
 }
-p {
+h1 {
+font-size: 96px;
+font-family: "Playfair Display", serif;
+}
 
+p {
 font-weight: normal;
 font-size: 18px
 }
 nav{
     background-color: var(--primary-color);
     color: var(--font-color);
-   padding-top: 20px;
+    padding: 25px 0;
+    line-height: 40px;
+    font-family: "Poppins", serif;
+    font-size: 16px;
 }
 
 nav li {
@@ -30,15 +34,22 @@ nav ul{
     margin:0;    
     padding: 0;
 }
-nav a{
+nav a {
+    margin: 0 50px;
     text-decoration: none;
     color: var(--font-color)
+    
 }
+nav a:hover, nav li.active a {
+    color: var(--buttons-color);
+}
+
+
 .hero{
     background: var(--primary-color);
     text-align: center;
     color:var(--font-color) ;
-    padding: 160px 20px;
+    padding: 100px 20px;
 }
 .content-section{
     background: var(--primary-color);
@@ -130,6 +141,9 @@ font-size: 24px;
 .projects-heading {
     font-size: 28px;    
 }
+.projects-description{
+    margin: 10px;
+}
 .hero {
     padding: 80px 20px;
 }
@@ -144,5 +158,9 @@ max-width: 200px;
 .about-heading{
 font-size: 36px;
 
+}
+nav a{
+    margin: 0 20px; 
+    font-size: 14px;
 }
 }
