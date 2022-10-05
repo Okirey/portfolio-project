@@ -12,6 +12,9 @@ h1 {
 font-size: 96px;
 font-family: "Playfair Display", serif;
 }
+h4 {
+    font-size: 48px;
+}
 
 p {
 font-weight: normal;
@@ -124,10 +127,40 @@ hero h2{
 .contact-section a{
 font-family: "Poppins", serif;
 font-size: 24px;
-  color: var(--secondary-color)
- 
+  color: var(--secondary-color); 
 }
-
+footer .email-link {
+    text-decoration: none;
+   color: var(--primary-color);
+   font-size: 24px;
+  text-align: center;   
+font-family: "Poppins", serif;
+}
+footer .email-link:hover{
+    color: var(--buttons-color);
+}
+footer .social-links a {
+background-color: var(--font-color);
+margin: 0 20px;
+color: var(--primary-color);
+padding: 10px 14px;
+font-size: 18px;
+border-radius: 50%;
+transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover{
+    color: var(--buttons-color);
+    background-color: var(--primary-color);
+}
+footer .contact-box {
+background-color: var(--font-color);
+font-family: "Poppins", serif;
+padding: 50px;
+border-radius: 10px;
+}
+footer .contact-box p {
+    margin: 0;
+}
 
 @media(max-width: 960px) {
  .text-block{
@@ -138,6 +171,7 @@ font-size: 24px;
  h1 {
     font-size: 56px;
  }
+ 
 .projects-heading {
     font-size: 28px;    
 }
@@ -163,4 +197,5 @@ nav a{
     margin: 0 20px; 
     font-size: 14px;
 }
+
 }
