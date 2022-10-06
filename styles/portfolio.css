@@ -171,6 +171,9 @@ footer .contact-box p {
  h1 {
     font-size: 56px;
  }
+ .content-section{
+    padding: 20px 50px;
+ }
  
 .projects-heading {
     font-size: 28px;    
